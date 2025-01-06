@@ -5,19 +5,27 @@
 }
 
 .hw {
-
+    border-top:2px solid #D9D9D9;
+    border-bottom:2px solid #D9D9D9;
+    padding: 15px 0;
 }
 .HW1{
-    margin: 0 auto;
-    min-height: 373px;
-    height: 100%;
-    max-width: 1140px;
-    width: 100%;
+    /*margin: 0 auto;*/
+    /*min-height: 373px;*/
+    /*height: 100%;*/
+    /*max-width: 1140px;*/
+    /*width: 100%;*/
+    padding: 0 20px;
+
 }
 
 .hwTitle {
     font-weight: 600;
     font-size: 22px;
     color: #000;
-    margin-top: 131px;
+
+    max-width: 1140px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 131px 0 10px 200px;
 }

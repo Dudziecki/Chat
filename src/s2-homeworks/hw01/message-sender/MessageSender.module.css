@@ -3,7 +3,9 @@
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 10px 5px;
+
+    margin: 0 auto;
 }
 
 .textarea {
@@ -16,14 +18,14 @@
     font-size: 16px;
     overflow: hidden;
     margin-right: 10px;
-    background: #f5f7fb;
+    background-color: #f5f7fb;
 }
 
 .button {
     padding: 10px 39px;
     background: #06c;
     border-radius: 20px;
-    color:#fff;
+    color: #fff;
     border: none;
     font-weight: 600;
     font-size: 16px;
@@ -35,6 +37,7 @@
 .button:hover {
     background: #05a;
 }
+
 .button:active {
     background: #048;
 }

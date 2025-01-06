@@ -1,9 +1,16 @@
 .message {
 
-    width: 100%;
+
     display: flex;
-    justify-content: flex-end;
-    border: 2px solid red;
+
+    /*border: 2px solid red;*/
+    padding-bottom: 15px;
+
+
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: flex-end;
+
 }
 
 .imageAndText {
@@ -17,37 +24,56 @@
     max-width: 48px;
     border-radius: 50%;
     margin-left: 10px;
+    position: relative;
 }
 
 .text {
     background-color: #0078d7;
     color: white;
     padding: 10px 20px 10px 10px; /* Добавляем отступы для треугольника */
-    border-radius: 10px;
+    border-radius: 10px 10px 0 10px;
+    font-size: 20px;
+    /*border:2px solid red;*/
     position: relative;
+
+
 }
 
 .text:after {
     content: '';
     position: absolute;
     bottom: 0; /* Позиционируем треугольник по вертикали */
-    right: -4px; /* Позиционируем треугольник по горизонтали */
-    width: 0;
-    height: 0;
-    border: 10px solid transparent;
-    border-left-color: #0078d7; /* Цвет треугольника */
-    border-right: 0;
+    left: 100%; /* Позиционируем треугольник по горизонтали */
+    /*width: 0;*/
+    /*height: 0;*/
+    /*border: 10px solid transparent;*/
+    /*border-left-color: #0078d7; !* Цвет треугольника *!*/
+    /*border-right: 0;*/
+    /*transform: rotate(45deg);*/
+    display: block;
+    width: 25px;
+    height: 25px;
+
+    background: radial-gradient(60px at top right,
+    transparent 49%,  #0078d7 51%) no-repeat right bottom;
 
 }
 
 .name {
-
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .messageText {
-
+    word-break: break-all;
+    white-space: normal;
+    max-width: 600px;
 }
 
 .time {
 
+    padding: 0 8px 0 0;
+    font-size: 12px;
+    font-weight: 600;
 }
