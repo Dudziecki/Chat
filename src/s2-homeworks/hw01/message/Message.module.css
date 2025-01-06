@@ -1,0 +1,53 @@
+.message {
+
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid red;
+}
+
+.imageAndText {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.imageAndText img {
+    min-height: 48px;
+    max-width: 48px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.text {
+    background-color: #0078d7;
+    color: white;
+    padding: 10px 20px 10px 10px; /* Добавляем отступы для треугольника */
+    border-radius: 10px;
+    position: relative;
+}
+
+.text:after {
+    content: '';
+    position: absolute;
+    bottom: 0; /* Позиционируем треугольник по вертикали */
+    right: -4px; /* Позиционируем треугольник по горизонтали */
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-left-color: #0078d7; /* Цвет треугольника */
+    border-right: 0;
+
+}
+
+.name {
+
+}
+
+.messageText {
+
+}
+
+.time {
+
+}
