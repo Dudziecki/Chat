@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/git@github.com:Dudziecki/Chat.git/static/css/main.e626a80d.css",
+    "main.js": "/git@github.com:Dudziecki/Chat.git/static/js/main.c22ed772.js",
+    "static/js/787.66cb4309.chunk.js": "/git@github.com:Dudziecki/Chat.git/static/js/787.66cb4309.chunk.js",
+    "static/media/avatar.png": "/git@github.com:Dudziecki/Chat.git/static/media/avatar.d947cb9d0d13765666b6.png",
+    "index.html": "/git@github.com:Dudziecki/Chat.git/index.html",
+    "main.e626a80d.css.map": "/git@github.com:Dudziecki/Chat.git/static/css/main.e626a80d.css.map",
+    "main.c22ed772.js.map": "/git@github.com:Dudziecki/Chat.git/static/js/main.c22ed772.js.map",
+    "787.66cb4309.chunk.js.map": "/git@github.com:Dudziecki/Chat.git/static/js/787.66cb4309.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e626a80d.css",
+    "static/js/main.c22ed772.js"
+  ]
+}
