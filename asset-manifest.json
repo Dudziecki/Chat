@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/Chat/static/css/main.f6af5222.css",
-    "main.js": "/Chat/static/js/main.7a0a39e3.js",
+    "main.css": "/Chat/static/css/main.1373d295.css",
+    "main.js": "/Chat/static/js/main.5f20b15c.js",
     "static/js/787.66cb4309.chunk.js": "/Chat/static/js/787.66cb4309.chunk.js",
+    "static/media/avatar.png": "/Chat/static/media/avatar.d947cb9d0d13765666b6.png",
+    "static/media/404.svg": "/Chat/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
+    "static/media/closeOutline.svg": "/Chat/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
     "static/media/editIcon.svg": "/Chat/static/media/editIcon.0a0cefd2190b593b4f76bb1a5afe0c1f.svg",
     "index.html": "/Chat/index.html",
-    "main.f6af5222.css.map": "/Chat/static/css/main.f6af5222.css.map",
-    "main.7a0a39e3.js.map": "/Chat/static/js/main.7a0a39e3.js.map",
+    "static/media/checked.svg": "/Chat/static/media/checked.b75ca55e8759862b4083.svg",
+    "static/media/burger.svg": "/Chat/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
+    "main.1373d295.css.map": "/Chat/static/css/main.1373d295.css.map",
+    "main.5f20b15c.js.map": "/Chat/static/js/main.5f20b15c.js.map",
     "787.66cb4309.chunk.js.map": "/Chat/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6af5222.css",
-    "static/js/main.7a0a39e3.js"
+    "static/css/main.1373d295.css",
+    "static/js/main.5f20b15c.js"
   ]
 }
