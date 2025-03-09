@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Chat/static/css/main.6ba9585c.css",
-    "main.js": "/Chat/static/js/main.f371c4af.js",
+    "main.css": "/Chat/static/css/main.b4e8ae54.css",
+    "main.js": "/Chat/static/js/main.91f6b7bc.js",
     "static/js/787.66cb4309.chunk.js": "/Chat/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/Chat/static/media/avatar.d947cb9d0d13765666b6.png",
     "static/media/404.svg": "/Chat/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
@@ -10,12 +10,12 @@
     "index.html": "/Chat/index.html",
     "static/media/checked.svg": "/Chat/static/media/checked.b75ca55e8759862b4083.svg",
     "static/media/burger.svg": "/Chat/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
-    "main.6ba9585c.css.map": "/Chat/static/css/main.6ba9585c.css.map",
-    "main.f371c4af.js.map": "/Chat/static/js/main.f371c4af.js.map",
+    "main.b4e8ae54.css.map": "/Chat/static/css/main.b4e8ae54.css.map",
+    "main.91f6b7bc.js.map": "/Chat/static/js/main.91f6b7bc.js.map",
     "787.66cb4309.chunk.js.map": "/Chat/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ba9585c.css",
-    "static/js/main.f371c4af.js"
+    "static/css/main.b4e8ae54.css",
+    "static/js/main.91f6b7bc.js"
   ]
 }
