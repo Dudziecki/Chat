@@ -1,23 +1,58 @@
-.item {
-}
 
-.item:last-of-type {
-}
-
-.users {
-}
 
 .buttonsContainer {
+
+    width:606px;
+    display:flex;
+    justify-content: flex-end;
+    gap: 10px;
 }
 
 .container {
+    width: 100%;
+    max-width: 1200px;
+    margin:0 auto;
+
+    /*display: flex;*/
+    /*max-width: 606px;*/
+    /*flex-direction: column;*/
+}
+
+
+
+.users {
+    width: 100%;
+    max-width: 400px; /* Уменьшаем ширину таблицы */
+    font-family: "Roboto", sans-serif;
+    border-collapse: collapse;
+    margin-top: 10px;
 }
 
 .thead {
+    background-color: #E5E5E5;
+    font-weight: bold;
 }
 
-.nameCol {
+.thead tr {
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.nameCol, .ageCol {
+    padding: 10px 15px;
+    text-align: left;
 }
 
 .ageCol {
+    font-weight: 700; /* Делаем жирным возраст */
+    text-align: left;
+    padding-left: 0;
 }
+
+tbody tr {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+tbody tr:last-child {
+    border-bottom: none;
+}
+
