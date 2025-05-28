@@ -32,24 +32,17 @@ const HW14 = () => {
 
     const sendQuery = (value: string) => {
         setLoading(true)
-        getTechs(value)
-            .then((res) => {
-                // делает студент
-
-                // сохранить пришедшие данные
-
-                //
-            })
+        getTechs(value).then((res) => {
+            setLoading(false)
+            if (res?.data?.techs) {
+                setTechs(res.data.techs)
+            }
+        })
     }
 
     const onChangeText = (value: string) => {
         setFind(value)
-        // делает студент
-
-        // добавить/заменить значение в квери урла
-        // setSearchParams(
-
-        //
+        setSearchParams({ find: value })
     }
 
     useEffect(() => {
@@ -74,6 +67,7 @@ const HW14 = () => {
                     value={find}
                     onChangeText={onChangeText}
                     onDebouncedChange={sendQuery}
+
                 />
 
                 <div id={'hw14-loading'} className={s.loading}>
